@@ -86,7 +86,7 @@ class PokemonList extends Component {
         const loadingTextCSS = { display: this.state.loading ? "block" : "none" };
 
         return (
-            <div className="mt-4">
+            <div className="">
                 <div className="row">
                     {
                         this.props.selected_wild_pokemon.loaded_pokemon.map(res=>{
@@ -94,7 +94,7 @@ class PokemonList extends Component {
                                 res.map((pokemon, i) =>{
                                     // console.log(pokemon)
                                     return(
-                                        <div className="col-6 col-xs-4 col-sm-4 col-md-3" key={i}>
+                                        <div className="col-6 col-xs-6 col-sm-6 col-md-3" key={i}>
                                             <Link to={`/pokemon/detail/${pokemon.pokemon_id}`}>
                                                 <PokemonCard
                                                     pokemon_name={pokemon.pokemon_name_title}

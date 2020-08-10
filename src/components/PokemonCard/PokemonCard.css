@@ -66,6 +66,9 @@
     .pokemon-card-name {
         font-size: 16px;
     }
+    .pokemon-card-number {
+
+    }
 }
   
 /* Small Screens, Laptops */
@@ -73,10 +76,15 @@
     .pokemon-card-name {
         font-size: 19px;
     }
+    .pokemon-card-number {
+        
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1024px){
-  
+    .pokemon-card-number {
+        
+    }
 }
 
 /* Dekstop, Large Screens */

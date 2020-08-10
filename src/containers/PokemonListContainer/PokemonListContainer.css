@@ -8,6 +8,7 @@
 }
 .pokemon-selected-box {
   flex: 1;
+  min-width: 150px;
 }
 
 .pokemon-list-box {
@@ -55,20 +56,22 @@
     left: 0;
     right: 0;
     background-color: #ebebeb;
+    margin-top: 4rem;
   }
   .pokemon-list-box {
     left: 0;
     width: 100%;
     width: unset;
     position: absolute;
-    top: 12rem;
+    top: 13rem;
     z-index: -1000;
   }
   .pokemon-owned-list-box {
     left: 0;
     width: 100%;
     position: absolute;
-    top: 14rem;
+    top: 20rem;
+    z-index: -1000;
   }
   .wrapper {
     height: unset;
@@ -87,6 +90,7 @@
     left: 0;
     right: 0;
     background-color: #ebebeb;
+    margin-top: 4rem;
   }
   .pokemon-list-box {
     left: 0;
@@ -100,7 +104,8 @@
     left: 0;
     width: 100%;
     position: absolute;
-    top: 16rem;
+    top: 20rem;
+    z-index: -1000;
   }
   .wrapper {
     height: unset;
@@ -119,6 +124,7 @@
     left: 0;
     right: 0;
     background-color: #ebebeb;
+    margin-top: 4rem;
   }
   .pokemon-list-box {
     left: 0;
@@ -132,7 +138,8 @@
     left: 0;
     width: 100%;
     position: absolute;
-    top: 16rem;
+    top: 20rem;
+    z-index: -1000;
   }
   .wrapper {
     height: unset;
