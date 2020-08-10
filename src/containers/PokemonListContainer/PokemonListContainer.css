@@ -33,7 +33,7 @@
   background: transparent;
   padding-left: 1rem;
   padding-right: 1rem;
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 .pokemon-owned-list-box::-webkit-scrollbar {
   display: none;
@@ -71,7 +71,7 @@
     left: 0;
     width: 100%;
     position: absolute;
-    top: 20rem;
+    top: 17rem;
     z-index: -1000;
   }
   .wrapper {
