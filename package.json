@@ -2,6 +2,7 @@
   "name": "pokemon-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://exzone97.github.io/my-pokemon-v2/",
   "dependencies": {
     "axios": "^0.19.2",
     "jquery": "^3.5.1",
@@ -24,6 +25,8 @@
     "reselect": "^4.0.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -47,6 +50,7 @@
   "devDependencies": {
     "@testing-library/react": "^10.4.7",
     "jest-dom": "^4.0.0",
-    "react-test-renderer": "^16.13.1"
+    "react-test-renderer": "^16.13.1",
+    "gh-pages": "^2.2.0"
   }
 }
