@@ -43,7 +43,7 @@ class PokemonOwnedList extends Component {
     render(){
         const ownedPokemonList = this.props.stateData.owned_pokemon
         return (
-            <div className="mt-4">
+            <div className="">
                 {
                     ownedPokemonList.length !== 0 ? 
                     <div className="row">
