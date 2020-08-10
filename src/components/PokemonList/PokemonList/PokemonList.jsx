@@ -23,7 +23,7 @@ class PokemonList extends Component {
 
     firstLoad = async () =>{
         let count = this.props.selected_wild_pokemon.count_pokemon_loaded
-        await this.props.loadMorePokemon(12,count)
+        await this.props.loadMorePokemon(32,count)
         this.setState({
             loading: false
         })

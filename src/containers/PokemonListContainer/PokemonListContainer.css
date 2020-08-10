@@ -1,6 +1,7 @@
 .wrapper {
-  height: 85vh;
+  height: 100vh;
   display: flex;
+  margin-top: -4rem;
 }
 .pokemon-list-wrapper{
   display: flex;
@@ -44,7 +45,7 @@
 }
 
 /* Mobile Devices */
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) and (orientation: portrait){
   .pokemon-list-wrapper{
     display: unset;
   }
@@ -76,7 +77,7 @@
 }
 
 /* Ipads, Tablets */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) and (max-width: 768px) and (orientation: portrait){
   .pokemon-list-wrapper{
     display: unset;
   }
@@ -108,7 +109,7 @@
 }
 
 /* Small Screens, Laptops */
-@media (min-width: 769px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) and (orientation: portrait){
   .pokemon-list-wrapper{
     display: unset;
   }
