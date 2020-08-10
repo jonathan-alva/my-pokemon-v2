@@ -1,0 +1,157 @@
+.wrapper {
+  height: 85vh;
+  display: flex;
+}
+.pokemon-list-wrapper{
+  display: flex;
+}
+.pokemon-selected-box {
+  flex: 1;
+}
+
+.pokemon-list-box {
+  flex: 3;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  width: 0px;
+  background: transparent;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.pokemon-owned-list-box {
+  flex: 3;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  width: 0px;
+  background: transparent;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.pokemon-owned-list-box::-webkit-scrollbar {
+  display: none;
+  width: 0px;
+  background: transparent;
+}
+.pokemon-list-box::-webkit-scrollbar {
+  display: none;
+  width: 0px;
+  background: transparent;
+}
+
+/* Mobile Devices */
+@media (min-width: 320px) and (max-width: 480px) {
+  .pokemon-list-wrapper{
+    display: unset;
+  }
+  .pokemon-selected-box {
+    position: fixed;
+    top: inherit;
+    left: 0;
+    right: 0;
+    background-color: #ebebeb;
+  }
+  .pokemon-list-box {
+    left: 0;
+    width: 100%;
+    width: unset;
+    position: absolute;
+    top: 12rem;
+    z-index: -1000;
+  }
+  .pokemon-owned-list-box {
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: 14rem;
+    z-index: -1000;
+  }
+  .wrapper {
+    height: unset;
+    display: flex;
+  }
+}
+
+/* Ipads, Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  .pokemon-list-wrapper{
+    display: unset;
+  }
+  .pokemon-selected-box {
+    position: fixed;
+    top: inherit;
+    left: 0;
+    right: 0;
+    background-color: #ebebeb;
+  }
+  .pokemon-list-box {
+    left: 0;
+    width: 100%;
+    width: unset;
+    position: absolute;
+    top: 13rem;
+    z-index: -1000;
+  }
+  .pokemon-owned-list-box {
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: 16rem;
+    z-index: -1000;
+  }
+  .wrapper {
+    height: unset;
+    display: flex;
+  }
+}
+
+/* Small Screens, Laptops */
+@media (min-width: 769px) and (max-width: 991px) {
+  .pokemon-list-wrapper{
+    display: unset;
+  }
+  .pokemon-selected-box {
+    position: fixed;
+    top: inherit;
+    left: 0;
+    right: 0;
+    background-color: #ebebeb;
+  }
+  .pokemon-list-box {
+    left: 0;
+    width: 100%;
+    width: unset;
+    position: absolute;
+    top: 13rem;
+    z-index: -1000;
+  }
+  .pokemon-owned-list-box {
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: 16rem;
+    z-index: -1000;
+  }
+  .wrapper {
+    height: unset;
+    display: flex;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px){
+  
+}
+
+/* Dekstop, Large Screens */
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+}
+
+/* Extra Large Screen TV */
+@media (min-width: 1201px) {
+  
+}

@@ -1,0 +1,49 @@
+a {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+}
+a:hover {
+  text-decoration: none;
+  color: rgb(102, 102, 102);
+}
+
+/* Mobile Devices */
+@media (min-width: 320px) and (max-width: 480px) {
+  .pokemon-list-box{
+    position: absolute;
+    top: 12rem;
+    z-index: -1000;
+  }
+}
+
+/* Ipads, Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  .pokemon-list-box{
+    position: absolute;
+    top: 12rem;
+    z-index: -1000;
+  }
+}
+
+/* Small Screens, Laptops */
+@media (min-width: 769px) and (max-width: 991px) {
+  .pokemon-list-box{
+    position: absolute;
+    top: 12rem;
+    z-index: -1000;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1024px){
+  
+}
+
+/* Dekstop, Large Screens */
+@media (min-width: 1025px) and (max-width: 1200px) {
+
+}
+
+/* Extra Large Screen TV */
+@media (min-width: 1201px) {
+  
+}

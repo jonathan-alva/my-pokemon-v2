@@ -1,0 +1,45 @@
+.pokemon-detail-stat
+
+    &__table
+        margin-right: $m-xl
+
+        td
+            text-align: right
+
+            &:first-child
+                color: $color-gray
+
+            &:nth-child(2)
+                width: 50px
+
+    &__graph-wrapper
+        background-color: $color-gray-light
+        border-radius: $border-radius-sm
+        overflow: hidden
+        width: 200px
+
+    &__graph
+        background-color: $brand-primary
+        height: $m-sm
+        position: relative
+
+        &:before
+            bottom: 0
+            content: ''
+            left: 0
+            position: absolute
+            right: 0
+            top: 0
+            background-image: linear-gradient(70deg, rgba(255,255,255,.2), rgba(255,255,255,0))
+
+        &.-low
+            background-color: $stats-low
+
+        &.-medium
+            background-color: $stats-medium
+
+        &.-high
+            background-color: $stats-high
+
+        &.-epic
+            background-color: $stats-epic
